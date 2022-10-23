@@ -2,5 +2,6 @@
   display: grid;
   /* style the columns and rows here */
   grid-template-areas: "a a a a";
+  grid-template-rows: repeat(4, 100px);
   grid-template-columns: repeat(4, 50px);
 }
