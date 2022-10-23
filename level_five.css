@@ -13,37 +13,36 @@
 
 .friend
 {
-  grid-column: span 1;
-  grid-row: span 1;
+  grid-column: auto / span 1;
+  grid-row: auto / span 1;
 }
 
 .cousins
 {
-  grid-column: span 1;
-  grid-row: span 1;
-
+  grid-column: auto / span 1;
+  grid-row: auto / span 1;
 }
 
 .siblings
 {
-  grid-column: span 2;
-  grid-row: span 1;
+  grid-column: auto / span 2;
+  grid-row: auto / span 1;
 }
 
 .aunts
 {
-  grid-column: span 1;
-  grid-row: span 2;
+  grid-column: auto / span 1;
+  grid-row: auto / span 2;
 }
 
 .uncles
 {
-  grid-column: span 1;
-  grid-row: span 2;
+  grid-column: auto / span 1;
+  grid-row: auto / span 2;
 }
 
 .grandparents
 {
-  grid-column: span 2;
-  grid-row: span 2;
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
 }
