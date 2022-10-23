@@ -1,6 +1,8 @@
-.container {
+.container
+{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
 #title 
@@ -9,10 +11,17 @@
   grid-column-end: -1; /*this should span the entire page, look into using negative numbers in grid-column-end*/;
 }
 
-.friend .cousins
+.friend
 {
   grid-column: span 1;
   grid-row: span 1;
+}
+
+.cousins
+{
+  grid-column: span 1;
+  grid-row: span 1;
+
 }
 
 .siblings
@@ -21,7 +30,13 @@
   grid-row: span 1;
 }
 
-.aunts .uncles
+.aunts
+{
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.uncles
 {
   grid-column: span 1;
   grid-row: span 2;
@@ -32,5 +47,3 @@
   grid-column: span 2;
   grid-row: span 2;
 }
-
-/* Style other types of family members below*/
